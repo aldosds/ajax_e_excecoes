@@ -60,6 +60,7 @@ $(document).ready(function() {
         })
     })
 
+    //Lançando exceções (simular erro) ao clicar em Enviar pedido
     $('#formulario-pedido').submit(function(evento) {
         evento.preventDefault();
 
